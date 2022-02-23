@@ -30,6 +30,7 @@ public class SetEvent implements ICommand {
 
     @Override
     public String getHelp() {
-        return null;
+        return "Usage: !setevent <event name> <youtube url> /n" +
+                "Saves the event name and the url associated with the event into the database ";
     }
 }

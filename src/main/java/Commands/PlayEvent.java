@@ -27,7 +27,8 @@ public class PlayEvent implements ICommand {
 
     @Override
     public String getHelp() {
-        return null;
+        return "Usage: !playevent <event name> /n" +
+                "Plays that specific event playlist saved on the database";
     }
 }
 

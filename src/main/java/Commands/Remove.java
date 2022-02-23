@@ -21,6 +21,7 @@ public class Remove implements ICommand {
 
     @Override
     public String getHelp() {
-        return null;
+        return "Usage: !remove <x> /n" +
+                "Remove the song at position specified";
     }
 }

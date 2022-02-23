@@ -31,6 +31,7 @@ public class PlayMyPlaylist implements ICommand {
 
     @Override
     public String getHelp() {
-        return null;
+        return "Usage: !playmyplaylist /n" +
+                "Plays your personal playlist if you have one saved on the database. Use !setplaylist <youtube url> to set one";
     }
 }

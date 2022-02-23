@@ -21,6 +21,7 @@ public class Size implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Returns the total amount of songs in the playlist";
+        return "Usage: !size /n" +
+                "Returns the total amount of songs in the current playlist";
     }
 }

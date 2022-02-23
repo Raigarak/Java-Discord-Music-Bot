@@ -24,7 +24,7 @@ public class Skip implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !skip\n" +
+        return "Usage: !skip \n" +
                 "Skips the current song in play and plays the next song in the list";
     }
 }

@@ -26,6 +26,7 @@ public class SetPlaylist implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Returns your personal playlist";
+        return "Usage: !setplaylist <youtube url> /n" +
+                "Saves your personal playlist to the database";
     }
 }

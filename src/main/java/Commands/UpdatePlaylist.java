@@ -22,6 +22,7 @@ public class UpdatePlaylist implements ICommand {
 
     @Override
     public String getHelp() {
-        return null;
+        return "Usage: !updateplaylist <youtube url> /n" +
+                "Update your personal playlist with a new youtube playlist";
     }
 }
