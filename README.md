@@ -15,7 +15,7 @@ After you finish the initalizing all the stuff above, all you have to do is comp
 **Commands** - 
 
 `clear` - !clear 
-``Clears all the songs in the current playlist``
+Clears all the songs in the current playlist\
 
 `DeleteEvent`
 
