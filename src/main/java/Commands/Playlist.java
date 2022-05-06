@@ -23,7 +23,7 @@ public class Playlist implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !playlist /n" +
+        return "Usage: !playlist" + "\n" +
         "Returns a list of all the songs currency in the list";
     }
 }

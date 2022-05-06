@@ -20,7 +20,7 @@ public class DeleteEvent implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !deleteevent <event name> /n" +
+        return "Usage: !deleteevent <event name>" + "\n" +
                 "Deletes the event in the database";
     }
 }

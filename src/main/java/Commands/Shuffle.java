@@ -20,7 +20,7 @@ public class Shuffle implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !shuffle /n" +
+        return "Usage: !shuffle" + "\n" +
                 "Shuffles the songs in the playlist";
     }
 }

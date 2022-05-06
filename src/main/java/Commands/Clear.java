@@ -23,7 +23,7 @@ public class Clear implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !clear /n" +
+        return "Usage: !clear" + "\n" +
                 "Clears all the songs in the current playlist";
     }
 }

@@ -22,7 +22,7 @@ public class MyPlaylist implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !myplaylist /n" +
+        return "Usage: !myplaylist" + "\n" +
                 "Retrieves your playlist from the database if you have it set";
     }
 }

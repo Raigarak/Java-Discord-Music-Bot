@@ -33,7 +33,7 @@ public class Purge implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !purge <x> /n" +
+        return "Usage: !purge <x>" + "\n" +
                 "Deletes the specified amount of messages from the text channel";
     }
 }

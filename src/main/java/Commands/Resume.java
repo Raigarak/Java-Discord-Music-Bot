@@ -20,7 +20,7 @@ public class Resume implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !resume /n" +
+        return "Usage: !resume" + "\n" +
                 "Resumes the playlist if the pause command was used";
     }
 }

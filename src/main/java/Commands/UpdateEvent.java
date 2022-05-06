@@ -22,7 +22,7 @@ public class UpdateEvent implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !updateevent <event name> <youtube url> /n" +
+        return "Usage: !updateevent <event name> <youtube url>" + "\n" +
                 "Updates the event playlist saved in the database to the new one";
     }
 }

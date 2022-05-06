@@ -24,7 +24,7 @@ public class Pause implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !help /n" +
+        return "Usage: !help" + "\n" +
                 "Displays all available commands";
     }
 }

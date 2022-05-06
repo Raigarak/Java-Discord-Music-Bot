@@ -27,7 +27,7 @@ public class Jump implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !jump <song position> /n" +
+        return "Usage: !jump <song position>" + "\n" +
                 "playlist jumps to the designated song position";
     }
 }

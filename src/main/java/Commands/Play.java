@@ -27,7 +27,7 @@ public class Play implements ICommand {
 
     @Override
     public String getHelp() {
-        return "Usage: !play <Youtube URL> or <Youtube Playlist URL> /n" +
+        return "Usage: !play <Youtube URL> or <Youtube Playlist URL>" + "\n" +
                 "Plays a youtube video or a youtube playlist. (You can queue up videos or playlist as well)";
     }
 }

@@ -25,15 +25,15 @@ public class Help implements ICommand {
                         .append(ICommand.getCommand())
                         .append(" - ")
                         .append(ICommand.getHelp())
-                        .append("`\n");
+                        .append("`\n")
+                        .append("\n");
             });
             event.getChannel().sendMessage(e.build()).queue();
             return;
         }
-        ICommand command = cManager.getCommand(String.join("", args));//!help noob noob ain't a command so its to check
+        ICommand command = cManager.getCommand(String.join("", args));
         if(command == null) {
-            event.getChannel().sendMessage("The command " + String.join("", args) + " does not exist! \n" +
-                    "Use").queue();
+            event.getChannel().sendMessage("The command " + String.join("", args) + " does not exist!").queue();
             return;
         }
         event.getChannel().sendMessage("Command help for " + command.getCommand() + " \n" + command.getHelp()).queue();
