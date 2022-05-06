@@ -1,5 +1,7 @@
 # JavaDiscordMusicBot
 
+[Youtube Demo](https://www.youtube.com/watch?v=ZozieD_TiN4)
+
 A java discord music bot with over 20+ music commands. It has a unique feature where it can save a youtube playlist for each user into a database. Each user can just type !playmyplaylist command, it'll retrieve their specific youtube playlist from the database and plays it.
 
 **Setup** - 
@@ -31,7 +33,7 @@ Displays all available commands
 	
 Playlist jumps to the designated song position
 
-`MyPlaylist !myplaylist
+`MyPlaylist` !myplaylist
 	
 Retrieves your playlist from the database if you have it set
 
