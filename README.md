@@ -15,42 +15,85 @@ After you finish the initalizing all the stuff above, all you have to do is comp
 **Commands** - 
 
 `clear` - !clear 
+
 Clears all the songs in the current playlist
 
-`DeleteEvent`
+`DeleteEvent` !deleteevent <event name>
+	
+Deletes the event in the database
 
-`Help` 
+`Help` !help
+	
+Displays all available commands
 
-`Jump`
+`Jump` !jump <song position>
+	
+Playlist jumps to the designated song position
 
-`MyPlaylist
+`MyPlaylist !myplaylist
+	
+Retrieves your playlist from the database if you have it set
 
-`Pause`
+`Pause` !pause
+	
+Pauses the song that's currently playing
 
-`Play`
+`Play` !play <Youtube URL> or <Youtube Playlist URL>
+	
+Plays a youtube video or a youtube playlist. (You can queue up videos or playlist as well)
 
-`PlayEvent`
+`PlayEvent` !playevent <event name>
+	
+Plays that specific event playlist saved on the database
 
-`Playlist`
+`Playlist` !playlist
+	
+Returns a list of all the songs in the queue
 
-`PlayMyPlaylist`
+`PlayMyPlaylist` !playmyplaylist
+	
+Plays your personal playlist if you have one saved on the database. Use !setplaylist <youtube url> to set one
 
-`Purge`
+`Purge` !purge <x>
+	
+Deletes the specified amount of messages from the text channel
 
-`Remove`
+`Remove` !remove <x>
+	
+Remove the song at position specified
+	
+`Resume` !resume
+	
+Resumes the playlist if the pause command was used
 
-`SetEvent`
+`SetEvent` !setevent <event name> <youtube url>
+	
+Saves the event name and the url associated with the event into the database
 
-`SetPlaylist`
+`SetPlaylist` !setplaylist <youtube url>
+	
+Saves your personal playlist to the database
 
-`Shuffle`
+`Shuffle`!shuffle
+	
+Shuffles the songs that are in the queue
 
-`Size`
+`Size` !size
+	
+Returns the count of all the songs in the queue 
 
-`Skip`
+`Skip` !skip
+	
+Skips the current song in play and plays the next song in the list
 
-`Song`
+`Song` !song
 
-`UpdateEvent`
+Returns the current song playing
+	
+`UpdateEvent` !updateevent <event name> <youtube url>
+	
+Updates the event playlist saved in the database to the new one
 
-`UpdatePlaylist`
+`UpdatePlaylist` !updateplaylist <youtube url>
+	
+Update your personal playlist with a new youtube playlist
