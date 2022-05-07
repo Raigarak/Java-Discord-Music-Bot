@@ -1,4 +1,4 @@
-# JavaDiscordMusicBot
+# Java Discord Music Bot
 
 [Youtube Demo](https://www.youtube.com/watch?v=ZozieD_TiN4)
 
